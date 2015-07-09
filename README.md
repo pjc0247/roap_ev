@@ -5,7 +5,7 @@ roap_ev
 # Subscriber
 class GameObject
   
-  #--subscrive :on_space
+  #--subscribe :on_space
   def attack
     puts "ATTACKKKKK"
   end
