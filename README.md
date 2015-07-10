@@ -17,7 +17,7 @@ class InputManager
   
   def keydown c
     
-    if c == Space
+    if c == :space
       Roap::Ev::fire :on_space
     end
   end
